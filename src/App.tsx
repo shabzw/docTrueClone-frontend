@@ -168,36 +168,18 @@ function App() {
       <div className="flex flex-col lg:flex-row p-4 lg:p-20 justify-center items-center bg-gray-100 mx-auto">
         {/* Left Content */}
         <div className="w-full lg:w-2/3 p-4 justify-center lg:justify-start">
-          <div className="flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
-
-            <span className="relative text-lg border-2 border-blue-700 text-blue-600 px-4 py-2 ml-1">
-              Welcome to DocTrue
-              <span className="absolute top-[-8px] left-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[-50%] -translate-y-[-50%]"></span>
-              <span className="absolute top-[-8px] right-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[50%] -translate-y-[-50%]"></span>
-              <span className="absolute bottom-0 left-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[-50%] translate-y-[50%]"></span>
-              <span className="absolute bottom-0 right-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[50%] translate-y-[50%]"></span>
-            </span>
-          </div>
-
+          <span className="relative text-lg border-2 border-blue-700 text-blue-600 px-4 py-2 ml-1">
+            Welcome to DocTrue
+            <span className="absolute top-[-8px] left-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[-50%] -translate-y-[-50%]"></span>
+            <span className="absolute top-[-8px] right-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[50%] -translate-y-[-50%]"></span>
+            <span className="absolute bottom-0 left-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[-50%] translate-y-[50%]"></span>
+            <span className="absolute bottom-0 right-0 w-2 h-2 bg-blue-700 rounded-full transform translate-x-[50%] translate-y-[50%]"></span>
+          </span>
           <div className="text-3xl lg:text-6xl font-bold mt-4 lg:mt-6">
             <div className="flex items-center">
               An A-Z OPD{" "}
               <img
-                className="w-xs lg:w-auto lg:max-w-sm ml-3"
+                className="hidden lg:block w-xs lg:w-auto lg:max-w-sm ml-3"
                 src={health}
                 alt="Health Icon"
               />
