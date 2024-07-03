@@ -34,7 +34,7 @@ const LandingPageContent: React.FC<ContentProps> = ({ docimg, health }) => {
           <div className="text-md lg:text-lg mt-4 lg:mt-6 text-gray-600">
             Helping clinics & Hospital Staffs to Operate Efficiently
           </div>
-          <div className="mt-6 lg:mt-10">
+          <div className="mt-6 lg:mt-10 font-semibold md:text-lg text-md">
             <button className="bg-blue-600 text-white px-4 lg:px-8 py-2 rounded-full hover:bg-blue-700 mr-2 lg:mr-4 transform transition duration-300 ease-in-out">
               Start Your Free Trial Today!
             </button>
